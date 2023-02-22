@@ -7,7 +7,6 @@
   color-scheme: light dark;
   color: rgba(166, 166, 166, 0.87);
   background-color: #ffffff;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,14 +14,36 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/*Editando img del welcome*/
+.ImgWelcomeCont{
+  margin-top: 140px;
+  margin-left: 270px;
+  padding-top: 200px;
+  padding-left: 40px;
+  padding-bottom: 200px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;	
+  background-image: url('./assets/img/imgWelcome.jpg');
+  font-size: 8rem;
+  text-align:end;
+  width: 70vw;
+  height: auto;
+  color: rgb(22, 12, 12);
+}
+
 
  .menu{
-  padding: 10px;
+  padding: 20px;
   margin: 0;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-
+  background-color: #6f6d6d;
 } 
 
+  /*Modificando avatar*/ 
+.avatar{
+    margin-right: 20px;
+}
 /*Modificando algunos elementos del boton carrito*/
 
 .cartBtn{
@@ -37,6 +58,9 @@
 
 }
 
+
+/*Div Bienvenidos a mirage*/
+
 .itemLcont{
   margin-top: 2px;
   padding-top: 200px;
@@ -48,8 +72,52 @@
   background-image: url('./assets/img/img3.jpg');
   font-size: 5rem;
   text-align: center;
-  
+  height: auto;
 
 }
 
+.chakra-card__footer{
+  justify-content: center;
+}
 
+/*Contenedor de Itemlist*/
+.ItemCont{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.itemDcont{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+/*Edit cart*/
+
+.CartCont{
+
+    display: flex;
+    flex-wrap: wrap;
+    width:100vw ; 
+    justify-content: center;
+
+
+}
+
+.CartCont__form{
+    padding: 120px 200px 90px 190px;
+    
+}
