@@ -2,14 +2,15 @@ import React from 'react'
 import { Card, CardBody, CardFooter } from '@chakra-ui/react'
 import { Stack, Button, Heading, Divider, Image, Text } from '@chakra-ui/react'
 import {Link} from 'react-router-dom'
-const Item = ({clave, name,img, marca}) => {
+import  image  from "../assets/img/producto1.jpg";
+const Item = ({clave, name, marca}) => {
 
   return (
           <div key={clave}>
           <Card maxW='sm' >
             <CardBody >
                 <Image
-                 src={img}
+                 src={image}
                  alt='Green double couch with wooden legs'
                  borderRadius='lg'
                 />

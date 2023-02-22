@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, CardBody, CardFooter } from '@chakra-ui/react'
 import { Stack, Button, Heading, Divider, Image, Text, ButtonGroup } from '@chakra-ui/react'
-import {Link} from 'react-router-dom'
 import ItemCount from './ItemCount'
 import  image  from "../assets/img/producto1.jpg";
 

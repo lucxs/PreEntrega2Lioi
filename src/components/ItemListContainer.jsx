@@ -5,7 +5,7 @@ import  Data from "../data.json";
 
 const ItemListContainer = ({greeting}) => {
     const {marca} = useParams(); 
-
+console.log("Esta es la marca:", marca);
 
     const [products, setProduct] = useState([]);
 
